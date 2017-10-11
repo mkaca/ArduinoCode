@@ -1,0 +1,23 @@
+-Mercury Tilt Switch
+-Buzzer
+-Diodes
+-Temperature Sensor
+-Buttons
+-Analog Configurable Resistors
+-Flame Sensor
+-Relay
+-Stepper, Servo Motors
+-RBG module
+-Capacitors, integrated circuits, semiconductors (lesson 27) (NE555P)
+-optocoupler  -  kind of like a relay except using light: uses high voltage to turn on light inside optocoupler,
+ which triggers lower voltage to another ciruit
+
+NOTE: for relay, connect the power of the motor (thing youre relaying), to lower node, opposite from Grnd, 
+ - connect connector(signal) opposite from IN1 (to middle node)
+- connect ground to arduino GRND
+======================================================
+NOTES:
+======================================================
+-Buzzer doesnt need resistor
+-attach voltage to object +, then resistor and connection to object -, then other side of resistor to (common)ground
+-cathode = ground  , since in electrolytic cell, cathode is negative, and anode is positive.
